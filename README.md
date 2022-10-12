@@ -1,0 +1,1 @@
+This is bare metal embedded task scheduler project. Target machine: STM32F411-DISCO
