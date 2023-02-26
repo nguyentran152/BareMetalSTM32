@@ -1,0 +1,15 @@
+GDB client step:
+
+1. arm-none-eabi-gdb.exe
+
+2. target remote localhost:3333
+
+3. monitor reset init
+
+4. monitor flash write_image erase final_sh.elf
+
+5. monitor arm semihosting enable
+
+6. monitor reset 
+
+7. monitor resume
